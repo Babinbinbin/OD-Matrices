@@ -5,7 +5,7 @@ path='C:\\Users\\babin\\OneDrive\\Desktop'
 os.chdir(path)
 #get distance and duration between two coordinates ((((((((use Google Distance Matrix API))))))))))
 def get_distance_duration(home_lat, home_lng, work_lat, work_lng):
-    api_key = "AIzaSyAAiJ2m8hoCG3L7hO2KqiZxZBUHv_rx7P0"
+    api_key = "AIzaSyAAiJ2m8hoCG3L7hO2KqiZxZBUHv_"
     url = f"https://maps.googleapis.com/maps/api/distancematrix/json?origins={home_lat},{home_lng}&destinations={work_lat},{work_lng}&key={api_key}"
     response = requests.get(url)
     data = response.json()
