@@ -1,3 +1,3 @@
 # OD-Matrices
 
-### A collection of unfinished codes I wrote for the project
+### A collection of some unfinished and poorly typed codes I wrote for the project
